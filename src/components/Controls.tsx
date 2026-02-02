@@ -84,7 +84,7 @@ export const Controls: React.FC<Props> = (props) => {
       
       {/* Slider für die Anzahl der Balken */}
       <div className="flex flex-col gap-2">
-        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest text-center">Balken: {size}</label>
+        <label className="text-xs font-bold text-gray-400 uppercase tracking-widest text-center">Beams: {size}</label>
         <input 
           disabled={isRunning} 
           type="range" min="10" max="50" 
@@ -108,7 +108,7 @@ export const Controls: React.FC<Props> = (props) => {
       {/* Aktions-Buttons */}
       <div className="flex gap-2">
         <button onClick={onReset} className="px-4 py-3 bg-gray-700 hover:bg-gray-600 text-white rounded-xl font-bold transition-all active:scale-95 shadow-md">
-          Neu
+          New
         </button>
         <button 
           onClick={onStart} 

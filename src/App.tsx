@@ -270,7 +270,7 @@ export default function App() {
           className="mt-12 px-8 py-4 bg-gray-800 hover:bg-gray-700 border border-gray-600 hover:border-emerald-500/50 text-emerald-400 rounded-2xl font-bold flex items-center gap-3 transition-all shadow-xl active:scale-95 disabled:opacity-30 disabled:cursor-not-allowed group"
         >
           <span className="text-2xl group-hover:rotate-90 transition-transform inline-block">+</span>
-          Algorithmus zum Vergleich hinzufügen
+          Add algorithm to compare
         </button>
       )}
 
